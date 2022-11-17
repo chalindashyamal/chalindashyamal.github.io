@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="Chalinda Rathnayake">
+	<meta name="description" content="Hi, I’m Chalinda Rathnayake.">
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+	<meta property="og:title" content="Home - Chalinda Rathnayake">
+	<meta property="og:description" content="Hi, I’m Chalinda Rathnayake. I like to make things.">
+	<meta property="og:image" content="/images/preview.png">
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="">
+	<meta property="twitter:title" content="Home - Chalinda Rathnayake">
+	<meta property="twitter:description" content="Hi, I’m Chalinda Rathnayake.">
+	<meta property="twitter:image" content="/images/preview.png">
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/20ccd3235c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="#top"></div>
+  <div class="header" id="header">
+    <div class="container">
+      <nav>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+
+      <div class="header-text">
+        <p>Programmer & A Website Designer</p>
+        <h1>
+          Hi,<br>I'm<span> Chalinda Rathnayake</span> From <br> Sri Lanka
+        </h1>
+      </div>
+      </nav>
+    </div>
+  </div>
+  <!--about-->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/chalinda02.jpg" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            I'm Chalinda Shyamal Rathnayake, and in June, I'll turn 21.My
+            education began at S. Thomas' College in Bandarawela. After
+            receiving six A's, two B's, and one S, I began my Advanced Level
+            in the technical stream. I completed my AL's in 2020. I'm from Sri
+            Lanka. My native country is Sri Lanka. With great pride, I say
+            this.<br /><br />I am a very hard worker and I have
+            self-confidence to face challengers without fear. I’m very
+            friendly in group activities and have taken leadership on many
+            occasions. I will work hard to become a very talented software
+            engineer in the future.
+          </p>
+
+          <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('Skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('Educational_Qualification')">
+              Educational Qualification
+            </p>
+            <p class="tab-links" onclick="opentab('Extra_Curricular_Activity')">
+              Extra-Curricular Activity
+            </p>
+          </div>
+
+          <!-- start -->
+          <!--<div id="theContents">-->
+
+          <div class="tab-contents active-tab" id="Skills">
+            <ul>
+              <li><span>Web Development</span><br />Web App Development</li>
+              <li>
+                <span>Programming Skills</span><br />C Programming/ Python/
+                Html/ CSS
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Educational_Qualification">
+            <ul>
+              <li>
+                <span>Plymouth University-NSBM Green University Town</span><br />BSc (Hons)Software Engineering
+                undergraduate
+              </li>
+              <li>
+                <span>S.Thoma's College-Bandaawela</span><br />
+                G.C.E. Ordinary Level Examination (2017)<br />G.C.E. Advanced
+                Level from Technology Stream (2020)
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="Extra_Curricular_Activity">
+            <ul>
+              <li>
+                <span>Clubs And Societies</span><br />Worked as a member of
+                the interact club(2019-2020)<br />
+                Worked as a member of the kennel club (2019-2020).<br />
+                Played as a member of the school badminton team(2016-
+                2018).<br />
+                Worked as a member of the scinece club (2014-2016).<br />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- end -->
+      </div>
+    </div>
+  </div>
+
+  <!--portfolio-->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+
+      <div class="work_list">
+
+        <div class="work">
+          <img src="images/02.jpg">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p> The app connect you the talented people around the world.
+              Downloard it form play store.</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/04.jpg">
+          <div class="layer">
+            <h3>Musical App</h3>
+            <p> The app connect you the talented people around the world.
+              Downloard it form play store.</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/05.jpg">
+          <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p> The app connect you the talented people around the world.
+              Downloard it form play store.</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+
+  <!--contact-->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact_left">
+          <h1 class="sub_title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>Email: chalindashyamalrathnayake@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>+94 75 449 7850</p>
+          <div class="social_icons">
+            <a href="https://instagram.com/chalinda.shyamal" title="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/chalindashyamal" title="GitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <a href="images/chalinda_CV.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact_right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--java script-->
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    /*const contents = document.querySelector('.tab-title')*/
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    /*contents.addEventListener('click',(event)=>{
+          console.log(event)
+
+      });*/
+  </script>
+
+  <!--End-->
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemenu.style.left = "0";
+    }
+    function closemenu() {
+      sidemenu.style.left = "-250px";
+    }
+  </script>
+
+
+  <!--form section -->
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxIr9oXqgiHTsOYw23rayWxsxBN7EXLOEQyGfA2BXu7rVau10RTCfpmmihhKBSsJrdm/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Your Message Sent Successfully"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <!--end-->
+  <div class="scroll-container">
+    <a href="#top">
+      <img src="images/up.svg">
+    </a>
+  </div>
+
+</body>
+
+</html>
